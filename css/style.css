@@ -398,17 +398,11 @@ CONTACT STYLE
 }
 
 #contact .form-group input,
-#contact .form-group textarea,
-#contact .form-group select {
+#contact .form-group textarea {
   padding: 20px;
 }
 
-#contact .form-group select {
-  color: #000;
-}
-
-#contact .form-group input.form-control,
-#contact .form-group select.form-control {
+#contact .form-group input.form-control {
   height: auto;
 }
 
