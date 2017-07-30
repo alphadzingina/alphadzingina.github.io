@@ -1,0 +1,613 @@
+
+body {
+  overflow-x: hidden;
+  font-family: "Arial Black", Helvetica, sans-serif;
+}
+
+p {
+  font-weight: 300;
+  line-height: 32px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  color: #232323;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.section-subheading {
+  font-size: 16px;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 100px 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************************************************************
+NAVBAR STYLE
+***********************************************************************************************************/
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+  padding: 10px 0 10px 0;
+}
+
+.navbar-custom .navbar-brand {
+  color: #9c27b0;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+.navbar-custom .navbar-brand:hover,
+{
+  color: #9c27b0;
+}
+
+.navbar-custom .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-custom .navbar-toggle span {
+  color: #fff;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #9c27b0;
+  border-color: #9c27b0;
+}
+.navbar-custom .nav li a {
+  font-family: "Arial Black", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #9c27b0;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #9c27b0;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #9c27b0;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 10px;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 100px;
+    color: #9c27b0;
+    /**background-color: #000;
+    border-radius: 25px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;**/
+  }
+
+  .navbar-custom .navbar-brand:hover,
+  .navbar-custom .navbar-brand:focus {
+    color: #9c27b0;
+    /**background-color: #000;
+    border-radius: 25px;**/
+  }
+  .navbar-custom .nav li a {
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    margin: 5px;
+  }
+
+  .navbar-custom .nav li a:hover,
+  .navbar-custom .nav li a:focus {
+    background-color: #000;
+    border-radius: 25px;
+    color: #9c27b0;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+/**********************************************************************************************************
+HEADER STYLE
+***********************************************************************************************************/
+header {
+  background-color: #222222;
+  background-image: url('../img/bg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 768px;
+}
+
+#header-1 {
+  margin-top: 100px;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-weight: 900px;
+}
+
+#header-2 {
+  margin-top: 150px;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+#header-3 {
+  margin-top:200px;
+  color: #fff;
+}
+
+#header-3:hover {
+  color: #9c27b0;
+}
+
+@media (min-width: 768px) {
+  
+}
+
+
+
+
+
+
+
+
+/**********************************************************************************************************
+ABOUT STYLE
+***********************************************************************************************************/
+#about p {
+  
+}
+
+
+
+
+/**********************************************************************************************************
+SERVICES STYLE
+***********************************************************************************************************/
+#services {
+  background-color: #f9f9f9;
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 50px 10px 50px 10px;
+  margin-top: 20px;
+  height: 400px;
+  border-radius: 25px;
+}
+.service-item .fa-circle {
+  color: #9c27b0;
+}
+.service-item:hover {
+  box-shadow: 0 0 16px #dd99ff;
+  -moz-box-shadow: 0 0 16px #dd99ff;
+  -webkit-box-shadow: 0 0 16px #dd99ff;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/**********************************************************************************************************
+PORTFOLIO STYLE
+***********************************************************************************************************/
+#portfolio {
+  background-color: #eeeeee;
+}
+
+.portfolio-filter  button {  
+  border-radius: 20px;
+}
+
+.portfolio-filter .btn-default {
+  color: #fff;
+  background-color: #000;
+  font-weight: 700;
+}
+
+.portfolio-filter .btn-default:hover {
+  color:  #9c27b0;
+  background-color: #000;
+}
+
+.portfolio-filter .btn-default:active,
+.portfolio-filter .btn-default:focus {
+  background-color: #9c27b0;
+  color: #fff;
+}
+.portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+
+.portfolio-item a:active,
+.portfolio-item a:focus{
+  background-color: #9c27b0;
+}
+
+.portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.portfolio-hover {
+  background: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+
+.portfolio-hover:hover {
+  opacity: 0.8;
+}
+
+.portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  top: 40%;
+  color: white;
+}
+
+.portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+
+.portfolio-caption p {
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+.portfolio-modal .btn {
+  color: white;
+  background-color: #9c27b0;
+  border-color: #9c27b0;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.portfolio-modal .btn:hover {
+  color: white;
+  background-color: #9c27b0;
+  border: 3px solid #9c27b0;
+}
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+
+
+
+
+
+/**********************************************************************************************************
+CONTACT STYLE
+***********************************************************************************************************/
+#contact {
+  background-color: #222222;
+  background-image: url('../img/map-image.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#contact .section-heading {
+  color: #fff;
+}
+
+
+#contact .form-group {
+  margin-bottom: 25px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea,
+#contact .form-group select {
+  padding: 20px;
+}
+
+#contact .form-group select {
+  color: #000;
+}
+
+#contact .form-group input.form-control,
+#contact .form-group select.form-control {
+  height: auto;
+}
+
+#contact .form-control:focus {
+  border-color: #9c27b0;
+  box-shadow: none;
+}
+
+#contact ::-webkit-input-placeholder {
+  font-family: "Arial Black", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #222222;
+}
+
+.btn-submit {
+  color: white;
+  background-color: #9c27b0;
+  border-color: #9c27b0;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active,
+.btn-submit.active {
+  color: white;
+  background-color: #9c27b0;
+  border: 3px solid #9c27b0;
+}
+
+#social-media {
+  padding-top: 50px;
+  margin: 10px;
+}
+
+#contact-details {
+  text-align: center;
+}
+
+#contact-details ul.list-social {
+  margin-bottom: 0;
+}
+
+#contact-details ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+  border: 3px solid #fff;
+}
+
+#contact-details ul.list-social li.social-facebook a {
+  background-color: #222222;
+}
+#contact-details ul.list-social li.social-facebook a:hover {
+  background-color: #3b5998;
+  border: 3px solid #3b5998;
+}
+#contact-details ul.list-social li.social-twitter a {
+  background-color: #222222;
+}
+#contact-details ul.list-social li.social-twitter a:hover {
+  background-color: #1da1f2;
+  border: 3px solid #1da1f2;
+}
+#contact-details ul.list-social li.social-linkedin a {
+  background-color: #222222;
+}
+#contact-details ul.list-social li.social-linkedin a:hover {
+  background-color: #6ec3f7;
+  border: 3px solid #6ec3f7;
+}
+#contact-details ul.list-social li.social-github a {
+  background-color: #222222;
+}
+#contact-details ul.list-social li.social-github a:hover {
+  background-color: #9c27b0;
+  border: 3px solid #9c27b0;
+}
+
+
+
+
+
+
+
+
+
+/**********************************************************************************************************
+FOOTER STYLE
+***********************************************************************************************************/
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/**********************************************************************************************************
+PORTFOLIO MODALL STYLE
+***********************************************************************************************************/
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.portfolio-modal .modal-content {
+  border: none;
+  border-radius: 0;
+  min-height: 100%;
+  text-align: center;
+}
+.portfolio-modal .modal-content h1 {
+  margin-bottom: 15px;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.5;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #660066;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #660066;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+
+
+::-moz-selection {
+  text-shadow: none;
+  background: #9c27b0;
+}
+::selection {
+  text-shadow: none;
+  background: #9c27b0;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #9c27b0;
+}
