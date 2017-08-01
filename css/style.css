@@ -49,7 +49,7 @@ section {
 NAVBAR STYLE
 ***********************************************************************************************************/
 .navbar-custom {
-  background-color: #222222;
+  background-color: transparent;
   border-color: transparent;
   padding: 10px 0 10px 0;
 }
@@ -66,7 +66,8 @@ NAVBAR STYLE
 }
 
 .navbar-custom .navbar-toggle {
-  border-color: #fff;
+  
+  background-color: #9c27b0;
 }
 
 .navbar-custom .navbar-toggle span {
@@ -85,11 +86,13 @@ NAVBAR STYLE
   color: #fff;
   font-weight: 700;
   padding: 10px;
+  background-color: #000;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   color: #9c27b0;
   outline: none;
+  background-color: #000;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
@@ -388,6 +391,7 @@ CONTACT STYLE
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 
 #contact .section-heading {
@@ -414,7 +418,7 @@ CONTACT STYLE
 }
 
 #contact ::-webkit-input-placeholder {
-  font-family: "Arial Black", Helvetica, sans-serif;
+  font-family: "Arial", Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #222222;
