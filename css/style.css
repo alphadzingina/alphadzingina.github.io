@@ -59,6 +59,7 @@ NAVBAR STYLE
   font-family: "Arial Black", Helvetica, sans-serif;
   font-size: 70px;
   font-weight: 700;
+  padding-top: 5px;
 }
 .navbar-custom .navbar-brand:hover,
 {
@@ -68,6 +69,11 @@ NAVBAR STYLE
 .navbar-custom .navbar-toggle {
   
   background-color: #9c27b0;
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fFF;
 }
 
 .navbar-custom .navbar-toggle span {
