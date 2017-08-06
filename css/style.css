@@ -1,4 +1,6 @@
-
+body, html {
+  height: 100%;
+}
 body {
   overflow-x: hidden;
   font-family: "Arial Black", Helvetica, sans-serif;
@@ -177,30 +179,22 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-height: 768px;
+  height: 100%; 
 }
 
-#header-1 {
-  margin-top: 100px;
-  font-family: "Arial Black", Helvetica, sans-serif;
-  font-weight: 900px;
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0. -50%);
+  text-align: center;
+  width: 100%;
 }
 
-#header-2 {
-  margin-top: 150px;
-  font-family: "Arial Black", Helvetica, sans-serif;
-  font-weight: 900;
-  -webkit-animation-delay: 1s;
-}
-
-#header-3 {
-  margin-top:200px;
+.header-text span {
+  font-family: arial;
+  font-size: 50px;
   color: #fff;
-  -webkit-animation-iteration-count: infinite;
-}
-
-#header-3:hover {
-  color: #9c27b0;
 }
 
 @media (min-width: 768px) {

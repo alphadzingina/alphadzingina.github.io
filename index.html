@@ -29,12 +29,8 @@
 
      <!-- Header -->
     <header>
-        <div class="container-fluid">
-            <div class="row" >
-                <h1 id="header-1" class="animated fadeInDownBig">Welcome To My Site</h1>
-                <h3 id="header-2" class="animated fadeInDownBig">I'm Alpha.<br>Front-End Designer &AMP; Developer</h3>
-                <a href="#about" class="page-scroll"><i id="header-3" class="fa fa-arrow-circle-down fa-3x animated bounce"></i></a>
-            </div>
+        <div class="header-text">
+            <span class="type"></span>
         </div>
     </header>
 
@@ -247,7 +243,7 @@
                         <img src="img/portfolio/escape.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Project Title</h4>s
+                        <h4>Project Title</h4>
                         <p class="text-muted">Client</p>
                     </div>
                 </div>
@@ -407,7 +403,24 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/contact_form.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+        import Typed from 'typed.js'; 
+        
+        var options = {
+            strings: [
+                "Hello There!", 
+                "Welcome To My Site",
+                "I'm Alpha",
+                "I'm a Front-End Developer &AMP: based in Kaduna, Nigeria."
+            ],   
+            typeSpeed: 70,
+            backDelay: 200,
+            loop; true
+        } 
+        
+        var typed = new Typed(".type", options);
+    </script>
 
 
 </body>
